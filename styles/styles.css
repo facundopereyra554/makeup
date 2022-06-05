@@ -90,6 +90,7 @@ ul>a{
     margin-bottom: 2rem;
 }
 
+
 .cards{
     display: flex;
     justify-content: center;
@@ -99,7 +100,7 @@ ul>a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 5rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 @media (max-width:1250px) {
@@ -138,9 +139,6 @@ ul>a{
     background-color: var(--colorSecundario);
 }
 
-.card:hover{
-    
-}
 
 .card>h3{
     font-family: var(--fuentePrincipal);
@@ -195,9 +193,13 @@ ul>a{
 }
 
 .card-pres{
-    width: 27rem;
-    height: 22rem;
+    width: 25rem;
+    height: 20rem;
     margin: 0 0 5rem 0;
+}
+.card-pres:hover{
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 .card-pres>img{
