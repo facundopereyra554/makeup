@@ -147,7 +147,7 @@ ul>a{
     .cepGrid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
+        gap: 3rem;
     }
 }
 
@@ -166,9 +166,11 @@ ul>a{
     background-position: center center;
 }
 
-.cep-text{
+.cep-bg2{
     margin-top: 2rem;
-    background-color: var(--colorPrimario);
+    background-image: url(../img/frase.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .card-pres{
