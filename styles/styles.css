@@ -1,6 +1,6 @@
 :root{
-    --colorPrimario: rgb(245, 151, 148);
-    --colorSecundario: #ffc1d5;
+    --colorPrimario: #EEE4DB;
+    --colorSecundario: #FFD7D7;
     --colorSecundarioOscuro:#d8a1b2;
     --fuentePrincipal: 'PT Serif', serif;
     --fuenteSecundatia: 'Space Mono', monospace;
@@ -140,7 +140,7 @@ ul>a{
 
 .cepillo{
     margin-top: 10rem;
-    background-color: var(--colorSecundarioOscuro);
+    background-color: var(--colorPrimario);
     min-height: 50rem;
     width: 100%;
 }
