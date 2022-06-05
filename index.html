@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -33,16 +34,16 @@
     <h3 class="sub">~ Cursos ~</h3>
     <section class="cards">
         <div class="card-grid">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <h3>Uñas Esculpidas</h3>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <h3>Maquillaje</h3>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <h3>Belleza de ojos</h3>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <h3>Uñas Esculpidas 2</h3>
             </div>
         </div>
@@ -55,7 +56,6 @@
     </section>
     <h3 class="sub">~ Reserva tu turno ~</h3>
     <section class="serv cards">
-        
         <div class="card-grid">
             <div class="card-pres">
                 <img src="./img/1.jpg" alt="">
@@ -92,7 +92,12 @@
         </div>
     </section>
     <section class="contacto">
-        <h3>Contacto</h3>
+        <h3 class="sub">Contacto</h3>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

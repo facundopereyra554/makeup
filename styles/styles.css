@@ -138,6 +138,10 @@ ul>a{
     background-color: var(--colorSecundario);
 }
 
+.card:hover{
+    
+}
+
 .card>h3{
     font-family: var(--fuentePrincipal);
     color: black;
