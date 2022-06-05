@@ -1,5 +1,5 @@
 :root{
-    --colorPrimario: #EEE4DB;
+    --colorPrimario: #F4DDD4;
     --colorSecundario: #FFD7D7;
     --colorMarron: rgb(116, 47, 47);
     --fuentePrincipal: 'PT Serif', serif;
@@ -87,6 +87,7 @@ ul>a{
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    margin-bottom: 2rem;
 }
 
 .cards{
@@ -183,15 +184,16 @@ ul>a{
 }
 
 .sub{
-    margin: 2rem 0 0 0;
+    margin: 5rem 0 0 0;
     font-size: 3rem;
     text-align: center;
+    color: var(--colorMarron);
 }
 
 .card-pres{
     width: 27rem;
     height: 22rem;
-    margin: 4rem 0;
+    margin: 0 0 5rem 0;
 }
 
 .card-pres>img{
