@@ -3,6 +3,7 @@
     --colorSecundario: #ffc1d5;
     --colorSecundarioOscuro:#d8a1b2;
     --fuentePrincipal: 'PT Serif', serif;
+    --fuenteSecundatia: 'Space Mono', monospace;
 }
 
 *{
@@ -173,10 +174,16 @@ ul>a{
     background-position: center center;
 }
 
+.sub{
+    margin: 2rem 0 0 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
 .card-pres{
-    width: 30rem;
-    height: 25rem;
-    margin: 2rem 0;
+    width: 27rem;
+    height: 22rem;
+    margin: 4rem 0;
 }
 
 .card-pres>img{
@@ -188,6 +195,11 @@ ul>a{
     margin: 0%;
     text-align: center;
     font-size: 1.5rem;
+    
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .contacto{
