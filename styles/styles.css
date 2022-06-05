@@ -47,7 +47,6 @@ ul>a{
     color:black;
 }
 
-
 .principal{
     margin: 2rem;
     position: relative;
@@ -173,7 +172,7 @@ ul>a{
     margin-top: 2rem;
     background-image: url(../img/book.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .cep-bg2{
