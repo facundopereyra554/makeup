@@ -137,6 +137,7 @@ ul>a{
     height: 25rem;
     border-radius: 2rem;
     background-color: var(--colorSecundario);
+    cursor: pointer;
 }
 
 
@@ -196,6 +197,8 @@ ul>a{
     width: 25rem;
     height: 20rem;
     margin: 0 0 5rem 0;
+    transition: .3s;
+    cursor: pointer;
 }
 .card-pres:hover{
     transform: scale(1.1);
