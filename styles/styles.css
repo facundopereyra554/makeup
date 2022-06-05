@@ -1,0 +1,204 @@
+:root{
+    --colorPrimario: rgb(245, 151, 148);
+    --colorSecundario: #ffc1d5;
+    --colorSecundarioOscuro:#d8a1b2;
+    --fuentePrincipal: 'PT Serif', serif;
+}
+
+*{
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0%;
+}
+
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    height: 4rem;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.7rem;
+    background-color: var(--colorSecundario);
+}
+
+ul>a{
+    position: relative;
+    top: 1rem;
+    padding-right: 2rem;
+    color:black;
+}
+
+
+.principal{
+    margin: 2rem;
+    position: relative;
+    top: 16rem;
+    text-align: center;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: var(--colorSecundario);
+}
+@media(min-width:760px){
+    .principal{
+        margin: 0 40rem;
+    }
+
+
+}
+.principal>h1{
+    position: relative;
+    top: 5rem;
+    font-family: var(--fuentePrincipal);
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+}
+
+.principal>a{
+    position: relative;
+    top: 10rem;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    background-color: black;
+}
+
+.banner{
+    background-image: url(../img/nono.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5rem;
+    gap: 1rem;
+}
+
+@media (max-width:1250px) {
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5rem;
+        gap: 1rem;
+    }
+}
+
+@media (max-width:960px) {
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5rem;
+        gap: 1rem;
+    }
+}
+@media (max-width:760px) {
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5rem;
+        gap: 1rem;
+    }
+}
+
+.card{
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    width: 30rem;
+    height: 25rem;
+    border-radius: 2rem;
+    background-color: var(--colorSecundario);
+}
+
+.card>h3{
+    font-family: var(--fuentePrincipal);
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    top: 10rem;
+}
+
+.cepillo{
+    margin-top: 10rem;
+    background-color: var(--colorSecundarioOscuro);
+    min-height: 50rem;
+    width: 100%;
+}
+@media (min-width:760px) {
+    .cepGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
+
+.cepGrid{
+    padding: 5rem;
+}
+
+.cep{
+    height: 40rem;
+}
+
+.cep-bg{
+    margin-top: 2rem;
+    background-image: url(../img/book.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.cep-text{
+    margin-top: 2rem;
+    background-color: var(--colorPrimario);
+}
+
+.card-pres{
+    width: 30rem;
+    height: 25rem;
+    margin: 2rem 0;
+}
+
+.card-pres>img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-pres>p{
+    margin: 0%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contacto{
+    background-color: var(--colorSecundario);
+    height: 25rem;
+}
+
+.contacto>h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+
