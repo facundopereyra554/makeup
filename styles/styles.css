@@ -1,9 +1,9 @@
 :root{
-    --colorPrimario: #F4DDD4;
+    --colorPrimario: #F6E9E6;
     --colorSecundario: #FFD7D7;
     --colorMarron: rgb(116, 47, 47);
-    --fuentePrincipal: 'PT Serif', serif;
-    --fuenteSecundatia: 'Space Mono', monospace;
+    --fuentePrincipal: 'Cinzel', serif;
+    --fuenteSecundatia: 'Tiro Gurmukhi', serif;
 }
 
 *{
@@ -36,15 +36,19 @@ ul{
     text-align: center;
     font-family: var(--fuentePrincipal);
     font-size: 1.7rem;
-    background-color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
 }
 
 ul>a{
     position: relative;
     top: 1rem;
     left: 1rem;
-    padding-right: 2rem;
+    margin-right: 2rem;
     color:black;
+}
+
+ul>a:hover{
+    border-bottom: 1px solid var(--colorMarron);
 }
 
 .principal{
@@ -54,7 +58,7 @@ ul>a{
     text-align: center;
     height: 20rem;
     border-radius: 1rem;
-    background-color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
 }
 @media(min-width:760px){
     .principal{
@@ -65,20 +69,30 @@ ul>a{
 }
 .principal>h1{
     position: relative;
-    top: 5rem;
+    top: 3rem;
     font-family: var(--fuentePrincipal);
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 400;
     color: black;
+    margin: 0%;
 }
 
 .principal>a{
     position: relative;
-    top: 10rem;
+    top: 7.7rem;
     color: white;
     font-size: 2rem;
-    padding: 1rem 3rem;
-    background-color: black;
+    padding: 1rem 7rem;
+    background-color: var(--colorSecundario);
+}
+
+.principal>p{
+    font-size: 1.8rem;
+    font-family: var(--fuenteSecundatia);
+    margin: 0%;
+    position: relative;
+    top: 3rem;
+    color: var(--colorMarron);
 }
 
 .banner{
@@ -100,7 +114,8 @@ ul>a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 5rem;
-    gap: 2rem;
+    column-gap: 1.5rem;
+    row-gap: 3rem;
 }
 
 @media (max-width:1250px) {
@@ -123,23 +138,23 @@ ul>a{
 @media (max-width:760px) {
     .card-grid{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: 5rem;
         gap: 1rem;
     }
+    .card{
+        max-width: 20rem;
+    }
 }
 
-.card{
-    position: relative;
-    top: 4rem;
+.card{ 
     text-align: center;
     width: 30rem;
     height: 25rem;
     border-radius: 2rem;
-    background-color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
     cursor: pointer;
 }
-
 
 .card>h3{
     font-family: var(--fuentePrincipal);
@@ -151,7 +166,6 @@ ul>a{
 }
 
 .cepillo{
-    margin-top: 10rem;
     background-color: var(--colorPrimario);
     min-height: 50rem;
     width: 100%;
@@ -191,19 +205,28 @@ ul>a{
     font-size: 3rem;
     text-align: center;
     color: var(--colorMarron);
+    font-family: var(--fuentePrincipal);
 }
 
 .card-pres{
+   transition: .3s; 
+   cursor: pointer;
+   
+}
+.card-pres>a>img{
     width: 25rem;
-    height: 20rem;
-    margin: 0 0 5rem 0;
-    transition: .3s;
-    cursor: pointer;
+    height: 20rem; 
+    border-radius: .5rem;
+    
 }
+
 .card-pres:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background-color: var(--colorSecundario);
     transition: .3s;
+    border-radius: .5rem;
 }
+
 
 .card-pres>img{
     width: 100%;
@@ -214,15 +237,16 @@ ul>a{
     margin: 0%;
     text-align: center;
     font-size: 1.5rem;
-    
+    font-family: var(--fuenteSecundatia);
 }
 
 .bold{
     font-weight: bold;
+    color: var(--colorMarron);
 }
 
 .contacto{
-    background-color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
     height: 25rem;
 }
 
