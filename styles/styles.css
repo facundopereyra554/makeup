@@ -44,12 +44,14 @@ body{
     background-position: center center;
 }
 .redsocial{
+    color: var(--colorMarron);
     display: flex;
     justify-content:end;
     align-items: flex-end;
     height: 0;
 }
 .redsocial>a>img{
+    
     position: relative;
     bottom: 0rem;
     width: 2.3rem;
@@ -285,17 +287,20 @@ ul>a:hover{
     color: var(--colorMarron);
 }
 
-.contacto{
+.shop{
     background-color: var(--colorPrimario);
     height: 25rem;
 }
 
-.contacto>h3{
+.shop>h3{
+    color: black;
+}
+
+.shop>p{
     text-align: center;
-    font-size: 3rem;
-    font-weight: 400;
-    margin-top: 0;
-    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--fuenteSecundatia);
+    color: var(--colorMarron);
 }
 
 
