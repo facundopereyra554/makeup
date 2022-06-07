@@ -159,7 +159,7 @@ ul>a:hover{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 5rem;
-        gap: 1rem;
+        gap: 1.5rem;
     }
     .card{
         max-width: 19rem;
@@ -236,7 +236,7 @@ ul>a:hover{
 @media (max-width:760px) {
     .card-grid2{
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 1.5rem;
     }
     .card-pres{
         max-width: 19rem;
