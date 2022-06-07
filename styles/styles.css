@@ -33,7 +33,7 @@ body{
     margin: 0%;
     position: relative;
     top: 1rem;
-    font-family: 1rem;
+    font-size: 1.2rem;
 }
 .logo{
     margin: auto;
@@ -186,7 +186,7 @@ ul>a:hover{
     font-size: 2rem;
     font-weight: 400;
     position: relative;
-    top: 10rem;
+    top: 4rem;
 }
 
 .cepillo{
@@ -226,6 +226,7 @@ ul>a:hover{
 }
 
 .sub{
+    font-weight: bold;
     margin: 5rem 0 0 0;
     font-size: 3rem;
     text-align: center;
@@ -234,8 +235,17 @@ ul>a:hover{
 }
 @media (max-width:760px) {
     .card-grid2{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
+    .card-pres{
+        max-width: 19rem;
+    }
+    .card-pres>a>img{
+        max-width: 19rem;
+
+    }
+
 }
 
 .card-pres{
